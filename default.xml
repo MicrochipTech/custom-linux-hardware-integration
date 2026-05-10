@@ -6,15 +6,15 @@
   <remote name="linux4microchip" fetch="https://github.com/linux4microchip/" />
   <remote name="linux4sam" fetch="https://github.com/linux4sam/" />
 
-  <project name="meta-mchp" remote="linux4microchip" path="meta-mchp" revision="refs/tags/linux4microchip-2025.10" />
+  <project name="meta-mchp" remote="linux4microchip" path="meta-mchp" revision="refs/tags/linux4microchip-2026.04" />
   <project name="openembedded-core" remote="openembedded" path="openembedded-core" revision="scarthgap" />
-  <project name="bitbake" remote="openembedded" path="bitbake" revision="1c9ec1ffde75809de34c10d3ec2b40d84d258cb4" />
+  <project name="bitbake" remote="openembedded" path="bitbake" revision="refs/tags/yocto-5.0.17" />
   <project name="meta-openembedded" remote="openembedded" path="meta-openembedded" revision="scarthgap" />
   <project name="meta-arm" remote="meta-arm" path="meta-arm" revision="scarthgap" />
   <project name="meta-my-custom-sama7d65" remote="MicrochipTech" path="meta-my-custom-sama7d65" revision="main" />
-  <project name="u-boot-mchp" remote="linux4microchip" path="src/u-boot-mchp" revision="refs/tags/linux4microchip-2025.10" />
-  <project name="dt-overlay-mchp" remote="linux4microchip" path="src/dt-overlay-mchp" revision="refs/tags/linux4microchip-2025.10" />
-  <project name="linux" remote="linux4microchip" path="src/linux" revision="refs/tags/linux4microchip-2025.10" />
-  <project name="at91bootstrap" remote="linux4sam" path="src/at91bootstrap" revision="refs/tags/4.0.11" />
+  <project name="u-boot-mchp" remote="linux4microchip" path="src/u-boot-mchp" revision="refs/tags/linux4microchip-2026.04" />
+  <project name="dt-overlay-mchp" remote="linux4microchip" path="src/dt-overlay-mchp" revision="refs/tags/linux4microchip-2026.04" />
+  <project name="linux" remote="linux4microchip" path="src/linux" revision="refs/tags/linux4microchip-2026.04" clone-depth="1" />
+  <project name="at91bootstrap" remote="linux4sam" path="src/at91bootstrap" revision="refs/tags/v4.0.13" />
 
 </manifest>

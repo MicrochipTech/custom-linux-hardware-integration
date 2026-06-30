@@ -6,15 +6,15 @@
   <remote name="linux4microchip" fetch="https://github.com/linux4microchip/" />
   <remote name="linux4sam" fetch="https://github.com/linux4sam/" />
 
-  <project name="meta-mchp" remote="linux4microchip" path="meta-mchp" revision="refs/tags/linux4microchip-2026.04" />
-  <project name="openembedded-core" remote="openembedded" path="openembedded-core" revision="scarthgap" />
-  <project name="bitbake" remote="openembedded" path="bitbake" revision="refs/tags/yocto-5.0.17" />
-  <project name="meta-openembedded" remote="openembedded" path="meta-openembedded" revision="scarthgap" />
-  <project name="meta-arm" remote="meta-arm" path="meta-arm" revision="scarthgap" />
-  <project name="meta-my-custom-sama7d65" remote="MicrochipTech" path="meta-my-custom-sama7d65" revision="main" />
-  <project name="u-boot-mchp" remote="linux4microchip" path="src/u-boot-mchp" revision="refs/tags/linux4microchip-2026.04" />
-  <project name="dt-overlay-mchp" remote="linux4microchip" path="src/dt-overlay-mchp" revision="refs/tags/linux4microchip-2026.04" />
-  <project name="linux" remote="linux4microchip" path="src/linux" revision="refs/tags/linux4microchip-2026.04" clone-depth="1" />
-  <project name="at91bootstrap" remote="linux4sam" path="src/at91bootstrap" revision="refs/tags/v4.0.13" />
+  <project name="meta-mchp" remote="linux4microchip" path="meta-mchp" revision="b8b0e21be7d83f6fff8f16b849d24376052118a6" />
+  <project name="openembedded-core" remote="openembedded" path="openembedded-core" revision="737293bead3e7b994347e47f09bc69437479d50c" />
+  <project name="bitbake" remote="openembedded" path="bitbake" revision="d3b4c352dd33fca90cd31649eda054b884478739" />
+  <project name="meta-openembedded" remote="openembedded" path="meta-openembedded" revision="b0c2c648a1af89e7a8dd4c2ec841f3bc0ed0ccb9" />
+  <project name="meta-arm" remote="meta-arm" path="meta-arm" revision="23b572c40ea6709ab3f8bd7abbb5a795fc3631c2" />
+  <project name="meta-my-custom-sama7d65" remote="MicrochipTech" path="meta-my-custom-sama7d65" revision="5e1dff9eb6bc958ac458b10945289b3ee1cb0df5" />
+  <project name="u-boot-mchp" remote="linux4microchip" path="src/u-boot-mchp" revision="9fa52b889bd44a7d761b36be1a9c6b1db335022a" />
+  <project name="dt-overlay-mchp" remote="linux4microchip" path="src/dt-overlay-mchp" revision="b656f6b963e44199c4d6401d833a9c2e54cf1061" />
+  <project name="linux" remote="linux4microchip" path="src/linux" revision="8f2c610093aa3d5a7bd50a8d0597be4f0b7a3eda" clone-depth="1" />
+  <project name="at91bootstrap" remote="linux4sam" path="src/at91bootstrap" revision="c2e3f87bf694a4c27c60d24db512adcdd4d7b442" />
 
 </manifest>
